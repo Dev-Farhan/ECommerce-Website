@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* navbar */
+.navbar{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform:capitalize;
+  box-shadow: 0 8px 6px -6px gray;
+  border-radius:2rem;
+  border-bottom: solid gray !important;
+}
+.nav-link{
+  font-weight:300 !important;
+}
+.active{
+  border-bottom: 1px solid gray;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-family: "roboto",sans-serif;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+.footer{
+  color: #fff;
+  padding: 25px;
+ background-color: rgb(62, 57, 67);
+}
+.footer a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+.footer a:hover{
+  color:  rgb(106, 167, 207);
+  border-bottom:1px solid  rgb(106, 167, 207);
+}
+
+/* page not found */
+.pnf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 65vh;
+}
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+.pnf-btn{
+  text-decoration: none;
+  color: #000;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.pnf-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+/* Contact US */
+.contactus{
+   margin:0;
+   padding: 0;
+   height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* register */
+
+.register-form{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginImg{
+  height: 30rem;
+  width: 30rem;
+}
+
+/*-------------------*/
+.product_link{
+  text-decoration: none !important;
+  color: #000 !important;
+}

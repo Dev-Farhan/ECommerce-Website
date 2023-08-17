@@ -1,0 +1,11 @@
+export const host = "http://localhost:8080";
+export const RegisterRoute = `${host}/api/v1/auth/register`;
+export const LoginRoute = `${host}/api/v1/auth/login`;
+export const UserAuth = `${host}/api/v1/auth/user-auth`;
+export const AdminAuth = `${host}/api/v1/auth/admin-auth`;
+export const ForgetPass = `${host}/api/v1/auth/forgot-password`;
+export const GetCategory = `${host}/api/v1/category/get-category`;
+export const CreateCat = `${host}/api/v1/category/create-category`;
+export const UpdateCat = `${host}/api/v1/category/update-category`;
+export const CreateProduct = `${host}/api/v1/product/create-product`;
+export const getAllProducts = `${host}/api/v1/product/get-products`;
